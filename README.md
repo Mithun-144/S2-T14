@@ -61,6 +61,20 @@ happy when they eat!
 
 
 <!--Fourth Section-->
+## Logisim Circuit Diagram
+<details>
+  <summary>Details</summary>
+  
+</details>
+
+<!--Fifth Section-->
+## Verilog
+<details>
+  <summary>Details</summary>
+  
+</details>
+
+<!--Sixth Section-->
 ## References
 <details>
  <summary>Click To See</summary> 
