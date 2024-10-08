@@ -59,6 +59,11 @@ happy when they eat!
   ![S2-T14](https://github.com/Mithun-144/S2-T14/blob/65d086898b42422ce58c8c3a66e49b8f8ace7ffe/Snapshots/S2-T14.drawio.png)
 </details>
 
+## Working
+<details>
+  <summary>Click to See</summary>
+  
+</details>
 
 <!--Fourth Section-->
 ## Logisim Circuit Diagram
@@ -66,6 +71,7 @@ happy when they eat!
   <summary>Details</summary>
   
 </details>
+
 
 <!--Fifth Section-->
 ## Verilog
