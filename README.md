@@ -157,9 +157,66 @@ A Up Counter is used to keep track total orders of the day.
 
 <!--Fourth Section-->
 ## Logisim Circuit Diagram
+
 <details>
-  <summary>Details</summary>
+  <summary>50% circuit</summary>
   
+  ![50%](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/fifty_percent.png)
+</details>
+
+<details>
+  <summary>5-bit up counter</summary>
+  
+   ![5-bit up counter](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/five_bit_up_counter.png)
+</details>
+
+<details>
+  <summary>5 by 2 Multiplier</summary>
+  
+   ![5 by 2 Multiplier](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/five_by_2_multiplier.png)
+</details>
+
+<details>
+  <summary>4-bit-down-counter</summary>
+  
+  ![4-bit-down-counterr](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/four_bit_down_counter.png)
+</details>
+
+<details>
+  <summary>7-bit-up-counter</summary>
+
+   ![7-bit-up-counter](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/seven_bit_up_counter.png)
+</details>
+
+<details>
+  <summary>6-bit-adder</summary>
+  
+   ![6-bit-adder](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/six_bit_adder.png)
+  
+</details>
+
+<details>
+  <summary>6-bit-comparator</summary>
+
+   ![6-bit-comparator](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/six_bit_comparator.png)
+</details>
+
+<details>
+  <summary>3*2 Multiplier</summary>
+
+![3*2 Multiplier](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/three_by_2_multiplier.png)
+</details>
+
+<details>
+  <summary>12.5%</summary>
+  
+  ![12.5%](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/twelve_percent.png)
+</details>
+
+<details>
+  <summary>2-bit-Comparator</summary>
+
+   ![2-bit-Comparator](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/two_bit_comparator.png)
 </details>
 
 
