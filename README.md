@@ -159,6 +159,24 @@ A Up Counter is used to keep track total orders of the day.
 ## Logisim Circuit Diagram
 
 <details>
+  <summary>Main Circuit</summary>
+  
+  ![Main Circuit]()
+</details>
+
+<details>
+  <summary>Priority Service</summary>
+  
+  ![Priority Service]()
+</details>
+
+<details>
+  <summary>Normal Service</summary>
+  
+  ![Normal Service]()
+</details>
+
+<details>
   <summary>50% circuit</summary>
   
   ![50%](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/fifty_percent.png)
