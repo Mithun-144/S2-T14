@@ -63,11 +63,72 @@ happy when they eat!
 <details>
   <summary>Flow chart of working</summary>
   
-  ![Flow Chart]()
+  ![Flow Chart](https://github.com/Mithun-144/S2-T14/blob/15761d4b806e93c2fe83d70f696f7c4df7943578/Snapshots/working.drawio%20(1).png)
 </details>
 
 <details>
-  <summary></summary>
+  <summary>Description Of Working</summary>
+
+- *Menu Sections (Starters, Main Course, Dessert)*:
+
+The menu is divided into these three categories. The items from these categories can be ordered.
+
+
+- *Availability Check (Down Counter)*:
+
+For each item ordered from a specific section, a down counter checks its availability.
+
+This is represented by LED:
+
+Light On: Item is available.
+
+Light Off: Item is not available.
+
+- *Order Priority Input*:
+
+The system takes input for order priority, determining which section (Starters, Main Course, or
+Dessert) should be served first.
+This process involves a comparator, which compares the input priorities to decide the order in which
+the items should be prepared and served.
+
+- *Service Type Input (Normal/Priority)*:
+
+The customer can select between two types of services:
+- Normal Service
+- Priority Service
+
+- *Cost Calculation*:
+
+The cost is calculated based on the items ordered and the type of service selected.
+
+- *Estimated Time Display*:
+
+Once the service type and order details are entered, the system calculates and displays the estimated time required to prepare the order.
+
+An Order Ready Alarm is activated once the order is completed within the estimated time.
+Priority Service:
+
+- *For priority service*:
+
+An additional Priority Fee (12.5 percent of the total cost) is applied.
+The estimated time for the order is reduced.
+
+- *If the time to serve exceeds the reduced time*:
+
+A portion of the money (50percent of the cost) is returned to the customer.
+The Order Ready Alarm is activated to indicate when the order is ready.
+
+- *Timer and Comparator Logic*:
+
+A timer and comparator are used to track the time taken to prepare the order.
+If the preparation time exceeds the estimated or reduced time, the system triggers actions like money
+return for priority customers.
+
+A Up Counter is used to keep track total orders of the day.
+</details>
+
+<details>
+  <summary>Truth Table</summary>
 </details>
 
 <!--Fourth Section-->
