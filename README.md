@@ -61,8 +61,13 @@ happy when they eat!
 
 ## Working
 <details>
-  <summary>Click to See</summary>
+  <summary>Flow chart of working</summary>
   
+  ![Flow Chart]()
+</details>
+
+<details>
+  <summary></summary>
 </details>
 
 <!--Fourth Section-->
