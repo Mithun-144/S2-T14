@@ -161,19 +161,19 @@ A Up Counter is used to keep track total orders of the day.
 <details>
   <summary>Main Circuit</summary>
   
-  ![Main Circuit]()
+  ![Main Circuit](https://github.com/Mithun-144/S2-T14/blob/a8a432f9f26ad813b6cf2875bb7b572526414cd9/Snapshots/Main%20Circuit.png)
 </details>
 
 <details>
   <summary>Priority Service</summary>
   
-  ![Priority Service]()
+  ![Priority Service](https://github.com/Mithun-144/S2-T14/blob/8fb644998055093e44b7d3f01b043d655ce38dce/Snapshots/Priority%20Service.png)
 </details>
 
 <details>
   <summary>Normal Service</summary>
   
-  ![Normal Service]()
+  ![Normal Service](https://github.com/Mithun-144/S2-T14/blob/8fb644998055093e44b7d3f01b043d655ce38dce/Snapshots/Normal%20Service.png)
 </details>
 
 <details>
