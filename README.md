@@ -167,7 +167,7 @@ A Up Counter is used to keep track total orders of the day.
 <details>
   <summary>Priority Service</summary>
   
-  ![Priority Service](https://github.com/Mithun-144/S2-T14/blob/8fb644998055093e44b7d3f01b043d655ce38dce/Snapshots/Priority%20Service.png)
+  ![Priority Service](https://github.com/Mithun-144/S2-T14/blob/cd1a77baae7e4c7e56e0f6a93bcac45629732bd7/Snapshots/Priority%20Service.png)
 </details>
 
 <details>
