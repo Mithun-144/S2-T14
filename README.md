@@ -220,7 +220,7 @@ A Up Counter is used to keep track total orders of the day.
 </details>
 
 <details>
-  <summary>3*2 Multiplier</summary>
+  <summary>3 by 2 Multiplier</summary>
 
 ![3*2 Multiplier](https://github.com/Mithun-144/S2-T14/blob/6ad23a8b9fe9ba29bcf8b92b40140781b569b621/Snapshots/three_by_2_multiplier.png)
 </details>
