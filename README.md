@@ -161,7 +161,9 @@ A Up Counter is used to keep track total orders of the day.
 <details>
   <summary>Main Circuit</summary>
   
-  ![Main Circuit](https://github.com/Mithun-144/S2-T14/blob/ce5209cd8eea492e9601bef69b621684208b57e4/Snapshots/Main%20Circuit.png)
+  ![Main Circuit]()
+</details>
+
 </details>
 
 <details>
