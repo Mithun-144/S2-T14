@@ -662,7 +662,9 @@ endmodule
  <summary>Click To See</summary> 
   
   1. M. Morris Mano, Digital Logic and Computer Design.
-  2. Neso Academy Youtube Channel. <url>https://www.youtube.com/@nesoacademy</url> 
+  2. Tutorials Point Youtube Channel.
+ <url>
+ http://www.youtube.com/@TutorialsPoint_ </url> 
 </details>
 
 
