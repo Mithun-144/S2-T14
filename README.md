@@ -659,6 +659,23 @@ endmodule
 </details>
 
 <!--Sixth Section-->
+## Hardware Implementation
+<details>
+  <summary>Click To See</summary>
+  
+  ![Harware Circuit](https://github.com/Mithun-144/S2-T14/blob/5f35e00a1d284464b491cd46d7af675f4dc3eb79/Snapshots/S2-T14-Hardware-Logisim.png)
+<pre>
+  IC's used are :-
+  1. 7486 IC -  XOR              -count=1
+  2. 7493 IC -  4-bit counter    -count=2
+  3. 7485 IC -  4-bit comparator -count=1
+  4. 7483 IC -  4-bit adder      -count=2
+  5. 7408 IC -  AND              -count=2
+  </pre>
+
+</details>
+
+<!--Seventh Section-->
 ## References
 <details>
  <summary>Click To See</summary> 
