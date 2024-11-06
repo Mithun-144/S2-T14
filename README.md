@@ -672,6 +672,62 @@ endmodule
   4. 7483 IC -  4-bit adder      -count=2
   5. 7408 IC -  AND              -count=2
   </pre>
+  # Priority-Dine Circuit Explanation
+
+This Priority-Dine circuit is designed to handle orders with a priority system, adjusting costs and processing times based on item selection and priority status.
+
+---
+
+## Components and Their Functions
+
+1. **Inputs**
+   - **Item1** and **Item2**: Represent individual items in the order. Each can be active (logic high) to indicate item selection.
+   - **Priority Button**: When pressed, this button designates the order as a priority order, triggering priority-related logic for cost and time adjustments.
+   - **Ready Button**: Signals that the order is complete and ready for pickup or delivery.
+
+2. **4-Bit Adders**
+   - Two 4-bit adders calculate the **Normal Cost** and **Normal Time** for the order. These values depend on which items are selected and the associated binary values for each item.
+
+3. **4-Bit Counters**
+   - **4-Bit UP Counters** are used to track the total number of orders. Each new order triggers a count increment, which is displayed as **Total Orders**.
+   - Another 4-bit counter is responsible for tracking  timing aspects of the order.
+
+4. **4-Bit Comparator**
+   - The comparator compares binary outputs (such as calculated costs or times) against preset values or thresholds. It helps to implement conditional logic, potentially determining if certain conditions like cost limits or priority time are met.
+
+5. **Logic Gates**
+   - **AND Gates**: Ensure specific conditions are met simultaneously. For example, they could be used to check if both items are selected or if the priority button is pressed along with other specific conditions.
+   - **OR Gates**: Allow the circuit to move forward if at least one of several conditions is met. For instance, they might combine signals from the Ready Button or other readiness-related conditions.
+
+---
+
+## Working of the Circuit
+
+1. **Order Selection and Cost/Time Calculation**
+   - When **Item1** or **Item2** is selected, these signals pass through the 4-bit adders, which calculate the **Normal Cost** and **Normal Time**.
+   - The labels `x4` for **Normal Time** and **Normal Cost** likely indicate fixed weights in the binary addition process.
+
+2. **Priority Adjustment**
+   - If the **Priority Button** is pressed, the circuit activates additional pathways to calculate the **Reduced Time** and **Priority Fee**.
+   - The labels `x3` for Reduced Time and `x2` for Priority Fee represent adjustments that involve adding specific values to reduce processing time and increase cost for prioritized orders.
+
+3. **Order Ready Signal and Count Tracking**
+   - Once an order is fully processed, the **Ready Button** indicates that the order is ready for pickup or delivery.
+   - The **4-Bit UP Counter** increments with each order, reflecting the **Total Orders** processed in the system. This counter keeps track of the cumulative order count.
+
+4. **Cost Return Logic**
+   - Based on priority status and whether the order meets expected conditions, the logic gates control the **Cost Returned** signal.
+   - The conditions for cost return involve checking if the actual processing time exceeded the expected time.
+
+5. **Final Output**
+   - The final output displays the total cost , the time required , and whether a cost return is due.
+   - The combination of counters, adders, and comparators allows for dynamic adjustment of costs and time, especially for priority orders marked as ready.
+
+---
+
+## Summary
+
+This Priority-Dine circuit effectively manages orders by calculating costs and times based on selected items and priority status. The **Ready Button** indicates when an order is prepared for pickup or delivery, while **counters** and **logic gates** monitor and control the order count and conditions for cost returns. The circuit achieves priority adjustments by using adders and logic gates rather than multipliers.
 
 </details>
 
